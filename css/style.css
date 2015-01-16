@@ -82,11 +82,11 @@ a:focus {
 ******************************/
 #home {
     background-color: #444;
-    background-position: center 0%;
+    background-position: center -800px;
     background-size: auto;
     background-repeat: repeat;
     background-attachment: fixed;
-    background-image: url(../img/slide-bg.jpg);
+    background-image: url(../img/home.jpg);
     display: table;
     width: 100%;
     height: 100%;
@@ -979,13 +979,13 @@ bootstrap overrides badge and pagination
 }
 /*pricing-section-2 for contact us*/
 .pricing-section-2{
-    background: url('../img/showcase-3.jpg') no-repeat center center fixed;
+    background: url('http://upload.wikimedia.org/wikipedia/commons/d/d3/Black_%2850%25_transparent%29.png'), url('../img/boards.jpg') no-repeat center center fixed;
     width:100%;
     padding: 90px 0;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+    -webkit-background-size: 150%;
+    -moz-background-size: 150%;
+    -o-background-size: 150%;
+    background-size: 150%;
     position: relative;
 }
 .pricing-section-2 h1{
